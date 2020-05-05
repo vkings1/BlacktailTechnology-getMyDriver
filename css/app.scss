@@ -11,7 +11,7 @@ html, body {
 
 #m_header {
     text-align: center;
-    margin: 29px 0 29px 0;
+    margin: 7px 0 -1px 0;
     padding: 14px 0;
     .logo {
         width: 50px;
@@ -21,6 +21,10 @@ html, body {
     background: #1f90ff;
     text-align: center;
     padding: 27px 0;
+
+    h1 {
+        font-size: 2rem;
+    }
 }
 
 #s_main {
@@ -52,6 +56,9 @@ html, body {
                 font-size: 11px;
                 text-align: center;
             }
+            .mb {
+                display: block;
+            }
             .r_p {
                 line-height: 1.4;
                 font-size: 13px;
@@ -59,6 +66,14 @@ html, body {
                 margin-bottom: 15px;
                 text-align: center;
             }
+
+            .text-muted {
+                color: #6c757d !important;
+                font-size: 11px;
+                text-align: center;
+            }
+
+
         }
     }
     .left {
@@ -78,6 +93,51 @@ html, body {
             padding: 31px 0 41px 33px;
             background-color: #eeeeee;
             border-radius: 5px;
+        }
+        #popUP {
+            color: #fff;
+            background-color: #007bff;
+            border-color: #007bff;
+            width: 28%;
+            padding: 9px;
+            margin: 0 0 0 39px;
+            outline: none;
+            border: none;
+        }
+        .s_dtime {
+            margin: 13px 0;
+            font-size: 0.875em;
+        }
+
+        .s_info {
+            ul {
+               list-style: none;
+               padding: 0;
+
+                li {
+                    padding: 3px 0;
+
+                    .windows {
+                        padding-left: 196px;
+                    }
+                    .windows1 {
+                        padding-left: 181px;
+                    }
+                    .windows2 {
+                        padding-left: 203px;
+                    }
+                    .windows3 {
+                        padding-left: 196px;
+                    }
+                    .windows4 {
+                        padding-left: 189px;
+                    }
+                    .windows5 {
+                        padding-left: 160px;
+                    }
+                }
+            }
+           
         }
     }
 }
